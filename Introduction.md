@@ -79,7 +79,27 @@
 ## Operating System Concepts
 
 ### Processes
-	- 
+	- it is a program in execution
+	- it is a container that holds all the information needed to run a program.
+	- process table where all the information about each process other than the contents of its own address space
+### Address Spaces
+	- holds the executing programs
+	- a set of address each process uses, typically running from 0 to some maximum
+	- Issues to consider
+		- when keeping multiple programs in memory, how do one keep them from interfering with one another
+		- in management of the address space of the processes, what happens when a process has more address space than the computer provides? (virtual memory)
+### Files
+	- an abstraction over disks and other I/O devices 
+	- device independet clean abstraction model
+	- they are organized as trees
+	- **directory** is a way of grouping files together
+	- at every instant, each process has a current working directory
+	- **pipe** is a sort of psuedofile that can be used to connect two processes
+
+### Input/Output
+### Protection
+### The shell
+
 
 
 
